@@ -1,0 +1,10 @@
+[1] create package.json file by writting npm init -y
+[2] install express by writting npm i express
+[3] create a file in root folder named server.js
+[4] install nodemon for automatically starting the server by writting npm i -D nodemon (-D (dev dependency) means we need it only for development not for production) 
+[5] Change the script in package.json file
+[6] Download a template engine ejs by writting npm i ejs for showing data dynamically
+[7] Create a root folder named views and put all the files there
+[8] Create a root folder named partials and put all the repeating components there like navBar, footer
+[9] Create a root folder named routes where we keep all the routes for our application
+[10] Get react cdn links and put them inside partials/scripts 

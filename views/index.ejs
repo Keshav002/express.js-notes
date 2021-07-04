@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs'); %>
+    <title><%= title %></title>  
+</head>
+<body>
+    <%- include('../partials/nav.ejs'); %> <!-- we put - symbol for not skipping the script ---->
+    <div class="container">
+        <h1 class="mt-4">This is home page</h1>
+        <a href="/download">Click to download</a>
+    </div>
+    <%- include('../partials/scripts.ejs'); %>
+   
+</body>
+</html>
